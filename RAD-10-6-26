@@ -1,4 +1,4 @@
-ACTIVITY #1
+//ACTIVITY #1 DIAGNOSTIC ACTIVITY
 # DIAGNOSTIC-ACTIVITY
 public class Main{
     public static void main(String[] args){
@@ -16,16 +16,15 @@ public class Main{
     }
 }
 
-ACTIVITY #3
-public class Countdown {
-        public static void main(String[] args) {
-                int i = 50;
 
-                while (i >= 1) {
-                        System.out.println(i);
-                        i--;
-                }
+//ACTIVITY#4 DIAGNOSTIC ACTIVITY
+public class Main {
+    public static void main(String[] args) {
+        int countdown = 50;
 
-                System.out.println("Litfoff!")
-        };
+        while (countdown > 0) {
+            System.out.println(countdown);
+            countdown--;
+        }
+    }
 }
