@@ -1,0 +1,31 @@
+ACTIVITY #1
+# DIAGNOSTIC-ACTIVITY
+public class Main{
+    public static void main(String[] args){
+        String name = "Cherie";
+        System.out.println("Enter your name: ");
+        int age = 19;
+        System.out.println("How old are you: ");
+        String address = "Sta.Cruz Lubao, Pampanga";
+        System.out.println("Where do you live: ");
+        double weight = 43.67;
+        System.out.println("What is your weight:");
+        double height = 165.0;
+        System.out.println("What is your height: ");
+        System.out.println("My name is "+ name +", I am "+ age +" years old. I live at "+ address +" my weight is "+ weight +" kg and my height "+ height +" cm");
+    }
+}
+
+ACTIVITY #3
+public class Countdown {
+        public static void main(String[] args) {
+                int i = 50;
+
+                while (i >= 1) {
+                        System.out.println(i);
+                        i--;
+                }
+
+                System.out.println("Litfoff!")
+        };
+}
