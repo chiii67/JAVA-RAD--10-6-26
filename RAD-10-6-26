@@ -15,6 +15,48 @@ public class Main{
         System.out.println("My name is "+ name +", I am "+ age +" years old. I live at "+ address +" my weight is "+ weight +" kg and my height "+ height +" cm");
     }
 }
+
+//ACITIVITY #2 DIAGNOSTIC ACTIVITY
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+String again = "yes";
+
+while (again.equals("yes")) {
+System.out.print("Enter X: ");
+double x = sc.nextDouble();
+
+System.out.print("Enter Y: ");
+double y = sc.nextDouble();
+
+System.out.print("Choose operator (+, -, *, /): ");
+char op = sc.next().charAt(0);
+
+switch (op) {
+case '+':
+System.out.println("Answer: " + (x + y));
+break;
+case '-':
+System.out.println("Answer: " + (x - y));
+break;
+case '*':
+System.out.println("Answer: " + (x * y));
+break;
+case '/':
+System.out.println("Answer: " + (x / y));
+break;
+default:
+System.out.println("Wrong operator");
+}
+
+System.out.print("Try again? (yes/no): ");
+again = sc.next();
+}
+}
+}
+
 //ACTIVITY#3 DIAGNOSTIC ACTIVITY
 import java.util.Scanner;
 
